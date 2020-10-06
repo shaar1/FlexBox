@@ -8,7 +8,7 @@
 }
 
 .items {
-    margin-top: 63px;
+    margin-top: 20px;
     margin-left: 19px;
     margin-bottom: 19px;
     margin-right: 20px;
@@ -16,6 +16,8 @@
     width: 78px;
     height: 78px;
     border-Radius: 4px;
+    display: flex;
+    align-items: baseline;
 }
 .circle-items
 {
@@ -32,6 +34,7 @@
     margin: 90px 0 0 98px;
     display: flex;
     justify-content: flex-start;
+    align-items: flex-end;
     width: 468px;
     height: 160px;
     background-color: #F48C06;
@@ -39,23 +42,29 @@
 
 .Second-block {
     margin: 90px 98px 0 20px;
-
     display: flex;
     justify-content: center;
     width: 468px;
     height: 160px;
     background-color: #F48C06;
-
+}
+.Second-block > .items {
+    height: 120px;
+    margin-top: 20px;
 }
 
 .Third-block {
     margin: 20px 0 0 98px;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     width: 468px;
     height: 160px;
     background-color: #F48C06;
+}
 
+.down-circle {
+    align-self: flex-end;
 }
 
 .Fourth-block {
@@ -73,9 +82,25 @@
     margin: 20px 0 90px 98px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 468px;
     height: 160px;
     background-color: #F48C06;
+}
+
+.long-circle {
+    height: 120px;
+}
+
+.items > p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: white;
+    text-align: center;
+    width: 100%;
 }
 
 .Sixth-block
@@ -83,11 +108,14 @@
     margin: 20px 98px 90px 20px;
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 468px;
     height: 160px;
     background-color: #F48C06;
 }
-
+.big {
+    width: 156px;
+}
 
 .Circles {
     position: relative;
@@ -96,6 +124,7 @@
     background: #FAA307;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 46px;
 
 }
 .first-circle-block
