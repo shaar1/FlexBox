@@ -5,6 +5,8 @@
     background: #370617;
     width: 1152px;
     height: 700px;
+    justify-content: center;
+    align-items: center;
 }
 
 .items {
@@ -19,8 +21,8 @@
     display: flex;
     align-items: baseline;
 }
-.circle-items
-{
+
+.circle-items {
     width: 50px;
     height: 50px;
     margin: 10px;
@@ -31,7 +33,7 @@
 
 
 .First-block {
-    margin: 90px 0 0 98px;
+    margin: 20px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
@@ -41,20 +43,24 @@
 }
 
 .Second-block {
-    margin: 90px 98px 0 20px;
+    margin: 20px;
     display: flex;
     justify-content: center;
     width: 468px;
-    height: 160px;
+    min-height:78px;
     background-color: #F48C06;
+    align-items: stretch;
+
+    
 }
-.Second-block > .items {
+
+.Second-block>.items {
     height: 120px;
     margin-top: 20px;
 }
 
 .Third-block {
-    margin: 20px 0 0 98px;
+    margin: 20px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -68,7 +74,7 @@
 }
 
 .Fourth-block {
-    margin: 20px 98px 0 20px;
+    margin: 20px;
     display: flex;
     justify-content: space-between;
     height: 160px;
@@ -77,22 +83,22 @@
 
 }
 
-.Fifth-block
-{
-    margin: 20px 0 90px 98px;
+.Fifth-block {
+    margin: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 468px;
     height: 160px;
     background-color: #F48C06;
+    align-items: baseline
 }
 
 .long-circle {
     height: 120px;
 }
 
-.items > p {
+.items>p {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -103,9 +109,8 @@
     width: 100%;
 }
 
-.Sixth-block
-{
-    margin: 20px 98px 90px 20px;
+.Sixth-block {
+    margin: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,8 +118,9 @@
     height: 160px;
     background-color: #F48C06;
 }
+
 .big {
-    width: 156px;
+    flex-grow:2;
 }
 
 .Circles {
@@ -127,10 +133,10 @@
     margin-top: 46px;
 
 }
-.first-circle-block
-{
+
+.first-circle-block {
     align-items: flex-start;
-    margin: 120px 10px 10px 146px;
+    margin: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -142,9 +148,8 @@
 
 }
 
-.second-circle-block
-{
-    margin: 120px 10px 10px 10px;
+.second-circle-block {
+    margin: 20px;
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: flex-end;
@@ -157,9 +162,8 @@
 }
 
 
-.Third-circle-block
-{
-    margin: 120px 0 10px 10px;
+.Third-circle-block {
+    margin: 20px;
     display: flex;
     justify-content: space-between;
     width: 273px;
@@ -172,9 +176,8 @@
     background-color: #03071E;
 }
 
-.Fourth-circle-block
-{
-    margin: 10px 10px 120px 146px;
+.Fourth-circle-block {
+    margin: 20px;
     display: flex;
     justify-content: space-between;
     width: 273px;
@@ -187,9 +190,8 @@
 
 }
 
-.Fifth-circle-block
-{
-    margin: 10px 0 120px 10px;
+.Fifth-circle-block {
+    margin: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
